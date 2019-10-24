@@ -323,6 +323,14 @@ header nav a {
   width: 30%;
   margin-bottom: 30px;
 }
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .home .content-pick .destination .btn {
   background-color: teal;
   color: white;

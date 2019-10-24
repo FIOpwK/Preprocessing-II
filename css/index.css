@@ -180,8 +180,8 @@ img {
 header {
   font-size: 2rem;
   border-bottom: 2px dashed #C0C0C0;
-  padding-bottom: 4rem;
-  padding-top: 4rem;
+  padding-bottom: 30px;
+  padding-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -194,6 +194,7 @@ header nav {
 }
 header nav a {
   text-decoration: none;
+  color: #212529;
 }
 .footer {
   width: 100%;
@@ -211,6 +212,12 @@ header nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.home .content-section .text {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .content-section .text p {
+  padding-bottom: 30px;
 }
 .home .content-section .text-content {
   width: 48%;

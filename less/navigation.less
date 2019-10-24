@@ -7,11 +7,22 @@ header {
     
     .flex-header();
     
+    @media @mobile {
+        .flex-nav-mobile();
+        padding: 0;
+    }
+
     nav {
         // border: 1px solid red;
         .flex-nav();
         margin: 0;
         width: 50%;
+
+        @media @mobile {
+            justify-content: space-evenly;
+            width: 100vw;
+            padding: 1%;
+        }
 
         a {
             text-decoration: none;

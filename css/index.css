@@ -179,7 +179,7 @@ img {
 }
 header {
   font-size: 2rem;
-  border-bottom: 1px dashed lightgray;
+  border-bottom: 2px dashed #C0C0C0;
   padding-bottom: 4rem;
   padding-top: 4rem;
   display: flex;
@@ -187,7 +187,6 @@ header {
   align-items: center;
 }
 header nav {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -195,9 +194,6 @@ header nav {
 }
 header nav a {
   text-decoration: none;
-}
-header h1 {
-  border: 1px solid;
 }
 .footer {
   width: 100%;

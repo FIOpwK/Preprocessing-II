@@ -22,6 +22,10 @@
   justify-content: center;
   align-items: center;
 }
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -221,9 +225,9 @@ header nav {
     padding: 1%;
   }
 }
-@media (min-width: 774px) {
+@media (max-width: 700px) {
   header nav {
-    border: 1px solid;
+    background: gray;
   }
 }
 header nav a {
@@ -343,18 +347,19 @@ header nav a {
 }
 @media (max-width: 600px) {
   .home .content-pick .destination {
-    width: 85%;
+    width: 88%;
+    font-style: oblique;
   }
 }
 .home .content-pick .destination .btn {
   background-color: teal;
   color: white;
+  font-size: 24px;
   border-radius: 10px;
   width: 80%;
   height: 4rem;
   padding: 4%;
   text-align: center;
-  font-size: 24px;
 }
 @media (max-width: 600px) {
   .home .content-pick .destination .btn {

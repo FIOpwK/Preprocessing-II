@@ -59,9 +59,8 @@
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
 
-    @media @mobile {
-      flex-direction: column-reverse;
-    }
+    @media @mobile { flex-direction: column-reverse; }
+    // @media @laptop { flex-direction: column-reverse; }
 
     .text-content {
       padding-left: 1%;
@@ -106,15 +105,18 @@
       margin-bottom: 30px;
 
       @media @mobile {
-        width: 85%;
-        h4 {
+        width: 88%;
+        
           // text-align: center;
-        }
+          font-style: oblique;
+        
       }
 
 
       .btn {
         .button-layout(teal, white, 24px);
+
+        // @media @laptop { .flex-content(); }
         @media @mobile {
         .flex-content();
         

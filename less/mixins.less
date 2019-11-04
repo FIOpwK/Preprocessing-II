@@ -1,1 +1,22 @@
 // Mixins in here
+
+// header section
+.flex-header { display: flex; justify-content: space-between; align-items: center; }
+
+// navigation section
+ .flex-nav { display: flex; justify-content: space-between; }
+
+//  navigation mobile
+ .flex-nav-mobile { display: flex; flex-direction: column; }
+
+//  content mobile
+ .flex-content { .flex-nav-mobile(); justify-content: center; align-items: center; }
+
+//  content mobile 2
+.flex-content-align { flex-direction: column; .flex-center(); }
+
+.flex-center {justify-content: center; align-items: center;}
+
+//  button parametric mixin
+.button-layout(@bgcolor, @fcolor, @fsize) { background-color: @bgcolor; color: @fcolor; font-size: @fsize; border-radius: 10px;
+    width: 80%; height: 4rem; padding: 4%; text-align: center; }
